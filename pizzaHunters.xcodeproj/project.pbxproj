@@ -12,6 +12,7 @@
 		C24A5C631CE78472008ABE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24A5C611CE78472008ABE26 /* Main.storyboard */; };
 		C24A5C651CE78472008ABE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24A5C641CE78472008ABE26 /* Assets.xcassets */; };
 		C24A5C681CE78472008ABE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24A5C661CE78472008ABE26 /* LaunchScreen.storyboard */; };
+		C2D4A1BA1CE803CF004CCB50 /* PizzaAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A1B91CE803CF004CCB50 /* PizzaAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C24A5C641CE78472008ABE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24A5C671CE78472008ABE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C24A5C691CE78472008ABE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D4A1B91CE803CF004CCB50 /* PizzaAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C24A5C5C1CE78472008ABE26 /* pizzaHunters */ = {
 			isa = PBXGroup;
 			children = (
+				C2D4A1B91CE803CF004CCB50 /* PizzaAnnotation.swift */,
 				C24A5C5D1CE78472008ABE26 /* AppDelegate.swift */,
 				C24A5C5F1CE78472008ABE26 /* ViewController.swift */,
 				C24A5C611CE78472008ABE26 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D4A1BA1CE803CF004CCB50 /* PizzaAnnotation.swift in Sources */,
 				C24A5C601CE78472008ABE26 /* ViewController.swift in Sources */,
 				C24A5C5E1CE78472008ABE26 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				C24A5C6E1CE78472008ABE26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
